@@ -205,7 +205,7 @@ namespace LoginAppApi.Controllers
                                       .ToListAsync();
 
             return Ok(users);
-        }
+        }//
 
         [HttpPost]
         public async Task<IActionResult> CreateUser([FromBody] User newUser)
